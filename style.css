@@ -5,16 +5,15 @@
 
 .header-container{
   background-image: url('images/banner/banner2.png');
-  height: 100%;
+  height: 780px;
   width: 100%;
-  position: fixed;
   background-repeat: no-repeat;
 }
 
 .header-item{
-  margin-top: 170px;
-  margin-left: 820px;
-  width: 400px;
+  padding-top: 195px;
+  padding-left: 680px;
+  width: 520px;
   text-align: right;
 }
 
@@ -22,14 +21,14 @@
   font-family: "Noto Sans JP", sans-serif;
   font-weight: 900;
   margin-bottom: 10px;
-  font-size: 40px;
+  font-size: 50px;
 }
 
 .header-item p{
-  font-family: "Ubuntu", sans-serif;
+  font-family: "Noto Sans JP", sans-serif;
   margin-bottom: 10px;
-  font-size: 15px;
-  line-height: 20px;
+  font-size: 18px;
+  line-height: 30px;
 }
 
 .header-item button{
@@ -38,6 +37,54 @@
   padding: 10px 12px;
   background-color: #F15B22;
   color: white;
-  border-radius: 3px;
-  font-size: 18px;
+  border-radius: 4px;
+  font-size: 21px;
+}
+
+.header-item button:hover{
+  border: 1px solid orangered;
+}
+
+/* -------------------------------
+main part
+---------------------------------- */
+
+.main-part{
+  padding: 80px;
+  display: flex;
+}
+
+.part1 img{
+  width: 500px;
+  height: 600px;
+}
+
+.part2{
+  width: 290px;
+  margin-top: 190px;
+  margin-left: 160px;
+}
+
+.part2 h2{
+  font-family: "Kanit", sans-serif;
+  font-weight: 800;
+  margin-bottom: 15px;
+  font-size: 32px;
+}
+
+.part2 p{
+  font-family: "Noto Sans JP", sans-serif;
+  width: 360px;
+  margin-bottom: 15px;
+}
+
+.part2 li{
+  list-style: none;
+  font-family: "Noto Sans JP", sans-serif;
+  width: 320px;
+  margin-bottom: 10px;
+}
+
+.part2 li i{
+  color: #22C136;
 }
