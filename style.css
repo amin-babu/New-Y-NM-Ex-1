@@ -61,7 +61,7 @@ main part
 
 .part2{
   width: 290px;
-  margin-top: 190px;
+  margin-top: 175px;
   margin-left: 160px;
 }
 
@@ -87,4 +87,40 @@ main part
 
 .part2 li i{
   color: #22C136;
+}
+
+/* ----------------
+plan styling
+-------------- */
+
+.plans-container{
+  background-color: rgb(241, 241, 245);
+  padding: 20px;
+}
+
+.plans h2{
+  font-family: "Kanit", sans-serif;
+  font-weight: 800;
+  margin-top: 20px;
+  text-align: center;
+}
+
+.plans-content{
+  display: flex;
+  margin: 40px auto;
+  justify-content: center;
+}
+
+.plans-item{
+  text-align: center;
+  margin: 0 50px;
+}
+
+.plans-item h3{
+  font-family: "Kanit", sans-serif;
+  font-weight: 800;
+}
+
+.plans-item p{
+  font-family: "Noto Sans JP", sans-serif;
 }
