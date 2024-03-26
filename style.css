@@ -1,0 +1,43 @@
+*{
+  margin: 0;
+  padding: 0;
+}
+
+.header-container{
+  background-image: url('images/banner/banner2.png');
+  height: 100%;
+  width: 100%;
+  position: fixed;
+  background-repeat: no-repeat;
+}
+
+.header-item{
+  margin-top: 170px;
+  margin-left: 820px;
+  width: 400px;
+  text-align: right;
+}
+
+.header-item h2{
+  font-family: "Noto Sans JP", sans-serif;
+  font-weight: 900;
+  margin-bottom: 10px;
+  font-size: 40px;
+}
+
+.header-item p{
+  font-family: "Ubuntu", sans-serif;
+  margin-bottom: 10px;
+  font-size: 15px;
+  line-height: 20px;
+}
+
+.header-item button{
+  font-family: "Noto Sans", sans-serif;
+  border: none;
+  padding: 10px 12px;
+  background-color: #F15B22;
+  color: white;
+  border-radius: 3px;
+  font-size: 18px;
+}
